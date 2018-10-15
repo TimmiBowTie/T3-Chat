@@ -3,6 +3,7 @@
     font-family: 'Chakra Petch', sans-serif;}
 body {background-color: lightgray;}
 .Small-Spacer {padding-top: 5%;}
-p { font-family: 'Ubuntu', sans-serif;}
+p {font-family: 'Ubuntu', sans-serif;}
+.nav-link { font-family: 'Ubuntu', sans-serif; color: aquamarine;}
 h1, h2, h3, h4, h5, h6 {font-family: 'Chakra Petch', sans-serif;}
 .navbar-brand {font-family: 'Chakra Petch', sans-serif;}
