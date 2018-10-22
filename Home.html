@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>T3 Chat | Home </title>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Google Fonts CSS -->
+     <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Ubuntu" rel="stylesheet">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+     <!-- Custom CSS-->
+     <link rel="stylesheet" href="Core.css">
+     <link rel="stylesheet" href="Home.css">
+     <link rel="stylesheet" href="Navbar.css">
+
+     <!-- Font Awesome CSS-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+   </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">T3 Chat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Add Users</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="https://github.com/TimmiBowTie/T3-Chat">Github</a>
+            </li>
+            <li class="navbar-item">
+               <a  class="nav-link" href=""> <i class="far fa-copyright"></i> TimmiBowTie &amp; Yeehawlerz101</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="Small-Spacer"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">User Information Panel</div>
+                <div class="card-body">
+                  <h5 class="card-title"> $Username</h5>
+                  <p class="card-text">$Username, your last login was $LastLoginDate. Nice to see you again!</p>
+                  <p class="card-text">Attached Email: Test123@test123.com</p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">PGP Panel</div>
+                <div class="card-body">
+                  <h5 class="card-title">PGP Key Management </h5>
+                  <p class="card-text">Generate new PGP key.<i class="far fa-file-code"></i></p>
+                  <p class="card-text">View current PGP keys.<i class="fas fa-book-open"></i></p> 
+                  <p class="card-text">Destroy a PGP keys.<i class="fas fa-book-dead"></i></p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Direct Message Panel</div>
+                <div class="card-body">
+                  <h5 class="card-title">Inbox</h5>
+                  <hr>
+                  <p class="card-text container-fluid Recived-Message"><i class="fas fa-angle-right"></i> Standard Message. <i class="fas fa-reply"></i></p>
+                  <p class="card-text container-fluid Recived-Message Recived-Message-Urgent"> <i class="fas fa-angle-double-right"></i> Important message.  <i class="fas fa-reply"></i></p>
+                  <hr>
+                  <p class="card-text">Torch Mailbox. <i class="fa fa-archive Mail-Burn"></i><i class="fas fa-fire Mail-Burnt"></i></p>
+                  <p class="card-text">Remove from a mailing list.</p>
+                  <p class="card-text">Block users.</p>
+                  <p class="card-text">Add users.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+        <div class="Delete-Account">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                            <div class="card text-white bg-danger mb-3 container-fluid" style="max-width: 18rem;">
+                                    <div class="card-header">Delete Account</div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Danger card title</h5>
+                                      <p class="card-text">Deleteing your account will remove you login password, are you sure that you wish to delete you account never to be seen again?</p>
+                                      <div class="container">
+                                        <div class="row">
+                                          <div class="col">
+                                            <button type="button" class="btn btn-outline-light btn-lg text-center">Delete Account</button>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                        <div class="Delete-Account Delete-Account-Container">
+                            <h3 class="Delete-Account-Header"></h3>
+                            <p class="Delete-Account-Text"></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>

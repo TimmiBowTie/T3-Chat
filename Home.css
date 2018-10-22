@@ -1,0 +1,6 @@
+body {background-image: url("./Images/light-bulb-3535435_1920.jpg")}
+.Recived-Message {background-color: green;color: white;border-radius: 3px;}
+.Recived-Message-Urgent {background-color: rgb(192, 0, 0);color: white;}
+.card {box-shadow: 1px 1px 8px #000000b6; transition-duration: .5s;}
+.fa-mail-bulk {color: rgb(54, 54, 54);}
+.fa-fire {color: red;}

@@ -1,12 +1,14 @@
 .GFonts {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Chakra Petch', sans-serif;}
-body {background-color: lightgray; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://pixabay.com/get/e833b00e28f0053ed1534705fb0938c9bd22ffd41cb218449df1c87ca2/sky-1611044_1920.jpg"); overflow: hidden;}
+body {background-color: lightgray; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/forest-2942477_1920.jpg"); overflow: hidden;}
 .Small-Spacer {padding-top: 5%;}
 p {font-family: 'Ubuntu', sans-serif;}
-.nav-link { font-family: 'Ubuntu', sans-serif; color: aquamarine;}
+
 h1, h2, h3, h4, h5, h6, .card-header {font-family: 'Chakra Petch', sans-serif;}
-.navbar-brand {font-family: 'Chakra Petch', sans-serif;}
+
 .background { filter: blur(1px);}
-.card {box-shadow: 0px 0px #000000b6; transition-duration: 1.5s;}
-.card:hover {box-shadow: 8px 8px #000000b6; transition-duration: 1.5s;}
+.card {box-shadow: 0px 0px #000000b6; transition-duration: .5s;}
+.card:hover {box-shadow: 8px 8px 15px #000000b6; transition-duration: .5s;}
+.fa-key {color: rgb(0, 123, 255);}
+.fa-trash {color: red;}
