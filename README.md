@@ -3,7 +3,7 @@
 ###### Creating a secure, private, and logless service is what the goal is for this project.
 ---
 ## Authors:
-### TimmiBowTie Yeehawlerz101
+ TimmiBowTie Yeehawlerz101
 ---
 ### Getting Started
 ##### What You'll need
